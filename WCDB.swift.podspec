@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-    s.name     = 'WCDBSwift'
-    s.version  = '0.1.0'
+    s.name     = 'WCDB.swift'
+    s.version  = '1.0.8.2'
     s.summary  = 'A short description of WCDBSwift.'
     s.homepage = 'https://github.com/937447974@qq.com/WCDBSwift'
     s.license  = { :type => 'MIT', :file => 'LICENSE' }
