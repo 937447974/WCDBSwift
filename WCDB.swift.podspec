@@ -19,21 +19,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.swift_version = '5.0'
 
-    # ——— Dependency
-    # s.dependency 'YJCocoa', '~> 8.0.2'
-
     # ——— File patterns
-    s.source_files = 'WCDBSwift/Classes/**/*'
-    # s.ios.vendored_frameworks = 'WCDBSwift/Frameworks/*.framework'
-
-    # s.resource_bundles = {
-    #   'WCDBSwift' => ['WCDBSwift/Assets/*.png']
-    # }
-
-    # --- Subspecs
-    # s.default_subspec = 'Develop'
-    # s.subspec 'Develop' do |develop|
-    #      develop.source_files = 'WCDBSwift/Classes/**/*'
-    #  end
+    s.ios.vendored_frameworks = 'WCDBSwift/Frameworks/*.framework'
 
 end
