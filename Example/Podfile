@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WCDBSwift_Tests' do
+  pod 'WCDBSwift', :path => '../'
+  
+  
+end
